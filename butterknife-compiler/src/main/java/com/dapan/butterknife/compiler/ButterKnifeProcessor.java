@@ -33,7 +33,8 @@ public class ButterKnifeProcessor extends AbstractProcessor {
         System.out.println("------------>");
         Set<? extends Element> elements = roundEnvironment.getElementsAnnotatedWith(ViewBind.class);
         for (Element element : elements) {
-            System.out.println(element.toString());
+            System.out.print(element.getSimpleName().toString() + "-----");
+            System.out.println(element.getEnclosingElement().toString());
         }
 
         return false;
