@@ -1,2 +1,2 @@
-include ':app', ':butterknife-annotation'
+include ':app', ':butterknife-annotation', ':butterknife-compiler'
 rootProject.name='FakeButterKnife'
