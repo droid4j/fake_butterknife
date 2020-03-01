@@ -6,7 +6,7 @@ import java.lang.reflect.Constructor;
 
 public class ButterKnife {
 
-    public UnBinder bind(Activity activity) {
+    public static UnBinder bind(Activity activity) {
         // XxxActivity_Binding viewBinding = new XxxActivity_Binding(this);
         try {
             Class<? extends UnBinder> bindClass = (Class<? extends UnBinder>)
