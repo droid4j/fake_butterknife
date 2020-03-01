@@ -1,13 +1,13 @@
-package com.dapan.butterknife;
+package com.dapan.butterknife.demo;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.dapan.butterknife.annotation.ViewBind;
 
-public class SecondActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @ViewBind(R.id.textView1)
     TextView textView1;
